@@ -17,7 +17,7 @@ nameInput.setAttribute("name", "name")
 nameInput.setAttribute("value", "Jobert")
 
 var emailInput = document.createElement("input")
-emailInput.setAttribute("type", "text")
+emailInput.setAttribute("type", "email")
 emailInput.setAttribute("name", "email")
 emailInput.setAttribute("value", "jobert@mydocz.cosmic")
 
@@ -40,7 +40,7 @@ csrfInput.setAttribute("name", "_csrf_token")
 csrfInput.setAttribute("value", csrf)
 
 var submit = document.createElement("input")
-submit.setAttribute("submit")
+submit.setAttribute("type", "submit")
 submit.setAttribute("value", "Save user")
 
 
