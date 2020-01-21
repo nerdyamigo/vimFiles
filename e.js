@@ -19,7 +19,7 @@ nameInput.setAttribute("value", "Jobert")
 var emailInput = document.createElement("input")
 emailInput.setAttribute("type", "text")
 emailInput.setAttribute("name", "email")
-emailInput.setAttribute("value" "jobert@mydocz.cosmic")
+emailInput.setAttribute("value", "jobert@mydocz.cosmic")
 
 var usernameInput = document.CreateElement("input")
 usernameInput.setAttribute("type", "text")
